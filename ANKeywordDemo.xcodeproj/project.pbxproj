@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A189A4081D86A427005543B1 /* ResultCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A189A4071D86A427005543B1 /* ResultCell.m */; };
 		A1D7479E1D8692D400016DFD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A1D747931D8692D400016DFD /* AppDelegate.m */; };
 		A1D7479F1D8692D400016DFD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1D747941D8692D400016DFD /* Assets.xcassets */; };
 		A1D747A01D8692D400016DFD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1D747951D8692D400016DFD /* LaunchScreen.storyboard */; };
@@ -18,6 +19,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A189A4061D86A427005543B1 /* ResultCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResultCell.h; sourceTree = "<group>"; };
+		A189A4071D86A427005543B1 /* ResultCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResultCell.m; sourceTree = "<group>"; };
 		A1D747761D86928D00016DFD /* ANKeywordDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ANKeywordDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1D747921D8692D400016DFD /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		A1D747931D8692D400016DFD /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -99,6 +102,8 @@
 			children = (
 				A1D7479C1D8692D400016DFD /* ViewController.h */,
 				A1D7479D1D8692D400016DFD /* ViewController.m */,
+				A189A4061D86A427005543B1 /* ResultCell.h */,
+				A189A4071D86A427005543B1 /* ResultCell.m */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -175,6 +180,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A1D747A41D8692D400016DFD /* ViewController.m in Sources */,
+				A189A4081D86A427005543B1 /* ResultCell.m in Sources */,
 				A1D747A31D8692D400016DFD /* main.m in Sources */,
 				A1D747AC1D8693D400016DFD /* ANKeyword.m in Sources */,
 				A1D7479E1D8692D400016DFD /* AppDelegate.m in Sources */,
@@ -328,6 +334,7 @@
 				A1D7478F1D86928D00016DFD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
