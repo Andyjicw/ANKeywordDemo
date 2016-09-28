@@ -78,6 +78,7 @@
 }
 
 - (void)searchBarTextDidBeginEditing:(UISearchBar *)searchBar {
+    self.searchBar.showsCancelButton = YES;
     NSLog(@"searchBarTextDidBeginEditing : %@", searchBar.text);
 }
 
