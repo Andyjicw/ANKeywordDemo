@@ -35,7 +35,8 @@
     self.searchBar = [[UISearchBar alloc] initWithFrame:CGRectMake(0, 20, self.view.frame.size.width, 44)];
     self.searchBar.delegate        = self;
     self.searchBar.searchBarStyle  = UISearchBarStyleMinimal;
-    [self.searchBar setAutocapitalizationType:UITextAutocapitalizationTypeNone]; // 取消首字母大写
+    // 取消首字母大写
+    [self.searchBar setAutocapitalizationType:UITextAutocapitalizationTypeNone];
     [self.view addSubview:self.searchBar];
     
     // tableView
